@@ -1,0 +1,15 @@
+
+#salários 
+
+salários = []
+while True:
+    valores = float(input("entrar com valor de salário - se valor negativo encerra:"))
+    if valores < 0:
+        break
+    salários.append(valores)
+print("a lista 'salários' tem", len(salários), "salários")
+i = 0
+while i < len(salários):
+    print(f"R$ {salários[i]:5.2f}")
+    i += 1
+    
