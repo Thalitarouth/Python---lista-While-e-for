@@ -1,0 +1,15 @@
+
+
+lista = [8,16,20,-3]
+for i in lista:
+    print(i)
+    
+# pesquisar um elemento da lista com FOR
+número_lista = int(input("\n digitar número da lista que deseja pesquisar:"))
+for i in lista:
+    if i == número_lista:
+        print("elemento pesquisado =", i )
+        break
+else:
+        print("elemento não encontrado")
+        
