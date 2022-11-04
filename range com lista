@@ -1,0 +1,4 @@
+
+print("\n")
+lista_gerador = list(range(10 , 101, 10))
+print("lista_gerador = ", lista_gerador)
