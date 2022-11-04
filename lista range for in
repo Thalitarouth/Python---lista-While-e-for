@@ -1,0 +1,12 @@
+print ("\n")
+lista_gerador = list(range(0 , 11 , 20))
+print("lista_gerador = ", lista_gerador)
+soma = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,]
+print ("\n")
+lista_pares = list(range(0, 20, 2))
+print("lista_pares = ", lista_pares)
+lista_impares = list(range(1, 20, 2))
+print("lista_impares = ", lista_impares )
+for i in range(10):
+    soma[i] = lista_pares[i]+lista_impares[i]
+print("lista com a soma dos impares e pares entre 0 e 20 = ", soma)
