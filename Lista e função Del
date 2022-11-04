@@ -1,0 +1,14 @@
+# lista e função Del
+
+números = []
+print("\n\a lista 'números' tem ", len(números), números, "elementos")
+números = números + [1]
+print("a lista 'números' tem ", len(números), números, "elementos")
+números = números + [3]
+print("a lista 'números' tem ", len(números), números, "números")
+números = números + [-5]
+print("a lista 'números' tem ", len(números), números, "elementos")
+del números[1]
+print("a lista 'números' tem ", len(números), números)
+print(números[0])
+print(números[1])
