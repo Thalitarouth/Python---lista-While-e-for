@@ -1,0 +1,24 @@
+"""
+lista = [8,16,20,-3]
+i = 0
+v = len(lista)
+
+while i < v :
+    print(lista[i])
+    i += 1
+"""
+    
+#pesquisa a um elemento de lista com while
+Lista = [8,16,20,-3]
+número_lista = int(input("\n digitar número da lista que deseja pesquisar:"))
+número_encontrado = False
+k = 0
+while k < len(Lista):
+    if Lista[k] == número_lista:
+        número_encontrado = True
+        break
+    k += 1
+if número_encontrado:
+   print(f"{número_lista} achado na posição {k}")
+else:
+   print("número não encontrado!")
