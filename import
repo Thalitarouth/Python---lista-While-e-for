@@ -1,0 +1,24 @@
+def verifica_números(número_lista, mínimo, máximo):
+    while True:
+        try:
+            n=float(input(número_lista))
+            if n>= mínimo and n<= máximo:
+                return n
+            else:
+                print(f"entrar com valor entre {mínimo} e {máximo}")
+        except ValueError:
+            print("entrar com número real")
+            
+______________________________________________________________________________________________________________________________________________________
+            
+            
+            import incrementa_lista
+
+lista_números = []
+print("DIMENSIONANDO O TAMANHO DA LISTA COM LAÇO for")
+for j in range (10):
+    lista_números.append(incrementa_lista.verifica_números("entrar com número entre -100.0 e +100.0 ", -100.0, +100.0))
+print(lista_números)
+print(f"soma dos elementos da 'lista_números' = {sum(lista_números)}")
+    
+            
