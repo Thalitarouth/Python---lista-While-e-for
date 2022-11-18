@@ -1,0 +1,8 @@
+from math import hypot
+
+def cálculo(x, y):
+    return hypot(x, y)
+
+a = 3.0
+b = 4.0
+print(f"a hipotenusa dos lados {a} e {b} é = ", cálculo(a, b))
